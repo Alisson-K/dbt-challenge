@@ -1,0 +1,59 @@
+[0m14:37:35.649875 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104615e80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106b8a5d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106b8a490>]}
+
+
+============================== 14:37:35.652318 | 5a3c4dd9-72cd-48eb-9417-3c56a1b7b846 ==============================
+[0m14:37:35.652318 [info ] [MainThread]: Running with dbt=1.7.9
+[0m14:37:35.652608 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'profiles_dir': '/Users/alissonkyriakidis/.dbt', 'log_path': 'logs', 'fail_fast': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'invocation_command': 'dbt init', 'introspect': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m14:37:35.652870 [warn ] [MainThread]: [ConfigFolderDirectory]: Unable to parse dict {'dir': PosixPath('/Users/alissonkyriakidis/.dbt')}
+[0m14:37:35.653013 [info ] [MainThread]: Creating dbt configuration folder at 
+[0m14:38:31.098955 [debug] [MainThread]: Starter project path: /Users/alissonkyriakidis/Desktop/WILD_EXO/dbt_wild_exo/my-dbt-env/lib/python3.13/site-packages/dbt/include/starter_project
+[0m14:38:31.131224 [info ] [MainThread]: 
+Your new dbt project "bdt_wild_exo" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m14:38:31.131743 [info ] [MainThread]: Setting up your profile.
+[0m14:38:46.670554 [info ] [MainThread]: Profile bdt_wild_exo written to /Users/alissonkyriakidis/.dbt/profiles.yml using target's sample configuration. Once updated, you'll be able to start developing with dbt.
+[0m14:38:46.672981 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1092968b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1092e6330>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1092de140>]}
+[0m14:38:46.673288 [debug] [MainThread]: Flushing usage events
+[0m14:38:47.257371 [debug] [MainThread]: Error sending anonymous usage statistics. Disabling tracking for this execution. If you wish to permanently disable tracking, see: https://docs.getdbt.com/reference/global-configs#send-anonymous-usage-stats.
+[0m14:58:50.453123 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x103b01010>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1033edbd0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1104a8050>]}
+
+
+============================== 14:58:50.455288 | 4c531faa-f714-426c-94f6-15b88232616e ==============================
+[0m14:58:50.455288 [info ] [MainThread]: Running with dbt=1.7.9
+[0m14:58:50.455575 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'logs', 'profiles_dir': '/Users/alissonkyriakidis/.dbt', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'invocation_command': 'dbt init', 'static_parser': 'True', 'introspect': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m15:05:59.904845 [debug] [MainThread]: Starter project path: /Users/alissonkyriakidis/Desktop/WILD_EXO/dbt_wild_exo/my-dbt-env/lib/python3.13/site-packages/dbt/include/starter_project
+[0m15:05:59.924958 [info ] [MainThread]: 
+Your new dbt project "dbt_wild_exo" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m15:05:59.925368 [info ] [MainThread]: Setting up your profile.
+[0m15:06:02.955552 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 432.55576, "process_user_time": 0.753751, "process_kernel_time": 0.150827, "process_mem_max_rss": "110460928", "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m15:06:02.955887 [debug] [MainThread]: Command `dbt init` succeeded at 15:06:02.955808 after 432.56 seconds
+[0m15:06:02.956084 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1010d6520>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1105971d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1105cbac0>]}
+[0m15:06:02.956285 [debug] [MainThread]: Flushing usage events
+[0m15:06:03.435725 [debug] [MainThread]: Error sending anonymous usage statistics. Disabling tracking for this execution. If you wish to permanently disable tracking, see: https://docs.getdbt.com/reference/global-configs#send-anonymous-usage-stats.

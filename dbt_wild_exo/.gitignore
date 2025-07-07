@@ -1,0 +1,11 @@
+# Fichiers de dépendances et de logs
+dbt_packages/
+logs/
+target/
+
+# Environnement virtuel Python
+.venv/
+my-dbt-env/
+
+# Fichiers macOS
+.DS_Store
