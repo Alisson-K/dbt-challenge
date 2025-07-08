@@ -1,0 +1,23 @@
+version: 2
+
+models:
+    - name: stg_orders
+      columns:
+        - name: order_id
+          description: unique key for each order 
+          tests:
+            - not_null
+            - unique
+        - name: customer_id
+          description: the key for the customer referencing the customer_id
+          tests:
+            - not_null
+            - relationships:
+                to: ref('stg_customers') 
+                field: customer_id
+        - name: date_order
+          description: the date of the order was passed
+        - name: store_id
+          description: "{{ doc('store_id_description') }}"
+          tests:
+            - not_null

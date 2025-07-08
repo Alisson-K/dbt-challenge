@@ -1,0 +1,25 @@
+version: 2
+
+sources:
+  - name: my_dbt_db
+    schema: my_dbt_db
+    tables:
+      - name: raw_customers
+        description: One record per person who has purchased one or more items
+        columns: # Ajout ici de la description visible sur dbt docs serve après dbt docs generate
+          - name: id
+            description: The unique key for each customer.
+          - name: name
+            description: The full name of the customer.
+      - name: raw_orders
+        description: One record per transaction
+        columns:
+          - name: id
+            description: unique key for each order 
+          - name: customer
+            description: the key for the customer referencing the customer_id
+          - name: ordered_at
+            description: the date of the order was passed
+          - name: store_id
+            description: "{{ doc('store_id_description') }}"
+  

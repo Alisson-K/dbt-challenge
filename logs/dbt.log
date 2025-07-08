@@ -57,3 +57,51 @@ Happy modeling!
 [0m15:06:02.956084 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1010d6520>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1105971d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1105cbac0>]}
 [0m15:06:02.956285 [debug] [MainThread]: Flushing usage events
 [0m15:06:03.435725 [debug] [MainThread]: Error sending anonymous usage statistics. Disabling tracking for this execution. If you wish to permanently disable tracking, see: https://docs.getdbt.com/reference/global-configs#send-anonymous-usage-stats.
+[0m19:39:03.688765 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1037f9010>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1032d5bd0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10636bb10>]}
+
+
+============================== 19:39:03.691163 | ad73c188-b160-4df5-830e-558b35a6dfab ==============================
+[0m19:39:03.691163 [info ] [MainThread]: Running with dbt=1.7.9
+[0m19:39:03.691441 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'profiles_dir': '/Users/alissonkyriakidis/.dbt', 'log_path': 'logs', 'version_check': 'True', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'introspect': 'True', 'invocation_command': 'dbt run', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m19:39:03.691701 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path /Users/alissonkyriakidis/Desktop/WILD_EXO/dbt_wild_exo/dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m19:39:03.693127 [debug] [MainThread]: Resource report: {"command_name": "run", "command_wall_clock_time": 0.04013129, "process_user_time": 0.714218, "process_kernel_time": 0.137678, "process_mem_max_rss": "106807296", "command_success": false, "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m19:39:03.693327 [debug] [MainThread]: Command `dbt run` failed at 19:39:03.693274 after 0.04 seconds
+[0m19:39:03.693475 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1061fafd0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1063f0710>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106285ae0>]}
+[0m19:39:03.693626 [debug] [MainThread]: Flushing usage events
+[0m19:39:04.160986 [debug] [MainThread]: Error sending anonymous usage statistics. Disabling tracking for this execution. If you wish to permanently disable tracking, see: https://docs.getdbt.com/reference/global-configs#send-anonymous-usage-stats.
+[0m19:59:29.177795 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107859010>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107331bd0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x109c2fb10>]}
+
+
+============================== 19:59:29.179690 | daa3bd8f-0747-4ba2-b8db-667b13c18918 ==============================
+[0m19:59:29.179690 [info ] [MainThread]: Running with dbt=1.7.9
+[0m19:59:29.179972 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/alissonkyriakidis/.dbt', 'fail_fast': 'False', 'warn_error': 'None', 'log_path': 'logs', 'debug': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'invocation_command': 'dbt run', 'static_parser': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m19:59:29.180207 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path /Users/alissonkyriakidis/Desktop/WILD_EXO/dbt_wild_exo/dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m19:59:29.181434 [debug] [MainThread]: Resource report: {"command_name": "run", "command_wall_clock_time": 0.041833375, "process_user_time": 0.717926, "process_kernel_time": 0.117691, "process_mem_max_rss": "106577920", "command_success": false, "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m19:59:29.181645 [debug] [MainThread]: Command `dbt run` failed at 19:59:29.181592 after 0.04 seconds
+[0m19:59:29.181791 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1098fafd0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x109cb4710>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x109b49ae0>]}
+[0m19:59:29.181936 [debug] [MainThread]: Flushing usage events
+[0m19:59:29.631620 [debug] [MainThread]: Error sending anonymous usage statistics. Disabling tracking for this execution. If you wish to permanently disable tracking, see: https://docs.getdbt.com/reference/global-configs#send-anonymous-usage-stats.
+[0m13:22:51.273531 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1044470e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105cf39d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105cf3c50>]}
+
+
+============================== 13:22:51.276363 | 84e1f31f-1ed7-451e-ac17-6eb53cb94f6d ==============================
+[0m13:22:51.276363 [info ] [MainThread]: Running with dbt=1.10.3
+[0m13:22:51.276647 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'version_check': 'True', 'log_path': 'logs', 'fail_fast': 'False', 'profiles_dir': '/Users/alissonkyriakidis/.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'log_format': 'default', 'static_parser': 'True', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'invocation_command': 'dbt run', 'send_anonymous_usage_stats': 'True'}
+[0m13:22:51.276913 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path /Users/alissonkyriakidis/Desktop/WILD_EXO/dbt_wild_exo/dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m13:22:51.278353 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": false, "command_wall_clock_time": 0.04958025, "process_in_blocks": "0", "process_kernel_time": 0.098686, "process_mem_max_rss": "107216896", "process_out_blocks": "0", "process_user_time": 0.537116}
+[0m13:22:51.278554 [debug] [MainThread]: Command `dbt run` failed at 13:22:51.278516 after 0.05 seconds
+[0m13:22:51.278697 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105d168b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105d4a330>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105bc1370>]}
+[0m13:22:51.278834 [debug] [MainThread]: Flushing usage events
+[0m13:22:51.887437 [debug] [MainThread]: An error was encountered while trying to flush usage events
