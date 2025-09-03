@@ -19,8 +19,6 @@ Une entreprise e-commerce fictive, "Cyclistic", souhaite mieux comprendre ses ve
 
 Les données utilisées sont un jeu de données public simulant des ventes. Il est composé de trois fichiers CSV : `customers.csv`, `orders.csv`, et `payments.csv`.
 
-*(💡 Astuce : Mettez vos fichiers CSV dans un dossier `data/` à la racine de votre projet pour que tout soit au même endroit !)*
-
 ---
 
 ### 🏗️ Architecture et Démarche
