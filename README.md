@@ -37,8 +37,6 @@ Le projet suit les meilleures pratiques de dbt avec une architecture en trois co
 
 La fonctionnalité la plus puissante de dbt est de visualiser le flux des données. Voici le graphe (DAG) de ce projet, montrant comment les modèles de staging alimentent les tables finales.
 
-*(💡 **ACTION REQUISE :** Dans votre terminal, après avoir configuré votre projet, lancez `dbt docs generate` puis `dbt docs serve`. Prenez une capture d'écran du graphe et ajoutez-la ici. C'est la preuve la plus visuelle de votre travail !)*
-
 **![Mon Graphe de Lignage dbt](lien_vers_votre_capture_decran.png)**
 
 ---
