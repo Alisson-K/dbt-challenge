@@ -33,22 +33,12 @@ Le projet suit les meilleures pratiques de dbt avec une architecture en trois co
 
 ---
 
-### 📊 Graphe de Dépendances (Lineage)
-
-La fonctionnalité la plus puissante de dbt est de visualiser le flux des données. Voici le graphe (DAG) de ce projet, montrant comment les modèles de staging alimentent les tables finales.
-
-**![Mon Graphe de Lignage dbt](lien_vers_votre_capture_decran.png)**
-
----
-
 ### ✅ Tests de Qualité des Données
 
 Pour garantir la fiabilité des données, plusieurs tests ont été mis en place sur les colonnes clés via les fichiers `.yml` :
 * `unique` : Pour s'assurer qu'il n'y a pas de doublons d'ID.
 * `not_null` : Pour vérifier que les identifiants critiques ne sont jamais vides.
 * `accepted_values` : Pour s'assurer que le statut d'une commande est bien l'un des statuts attendus.
-
-*(💡 Astuce : Assurez-vous d'avoir bien créé un fichier `.yml` dans votre dossier `models/staging/` pour documenter et tester vos modèles !)*
 
 ---
 
